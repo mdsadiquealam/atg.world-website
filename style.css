@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans';
+
+}
+
+.container-fluid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.my-navbar .logo img {
+    width: 162.58px;
+    height: 24.01px;
+    top: -0.01px;
+    left: -0.01px;
+
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.my-navbar {
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000001F;
+}
+
+.my-navbar .d-flex {
+    margin: 0 auto;
+    position: relative;
+}
+
+.my-navbar .search-icon .fa-solid.fa-magnifying-glass {
+    color: #5C5C5C;
+    top: 14px;
+    left: 23px;
+    position: absolute;
+}
+
+.my-navbar .nav-item a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #2E2E2E;
+    line-height: 22.8px;
+    font-weight: 700;
+}
+
+.my-navbar .nav-item {
+    position: relative;
+    display: flex;
+}
+
+.my-navbar .nav-item .free {
+    color: #2F6CE5;
+}
+
+input.form-control.me-2 {
+    width: 360px;
+    height: 42px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    border: none;
+    background: #F2F2F2;
+    letter-spacing: 0em;
+    text-align: left;
+
+    border-radius: 21px;
+    padding-left: 55px;
+}
+
+.Engineering-section {
+    background: url(img/img/top-banner.jpg);
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    Height: 440px;
+}
+
+.Engineering-section-shadow {
+    background: url(img/img/shadow.png);
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    Height: 440px;
+}
+
+.computer-banner {
+    padding-top: 297px;
+}
+
+.computer-banner h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.computer-banner p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* all-post */
+section.all-nav {
+    margin-top: 20px;
+}
+div#navbarSupportedContentevent-bt {
+    border-bottom: 1px solid #E0E0E0;
+}
+a.nav-link.active {
+    border-bottom: 2px solid #000000;
+
+
+}
+
+a.nav-link.active {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+a.nav-link {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8A8A8A;
+}
+
+.atical-btn button.btn-1 {
+    background: #EDEEF0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+.atical-btn button.btn-2 {
+    background: #2F6CE5;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* end */
+/* Article */
+section.Article-allpost {
+    margin-top: 50px;
+}
+
+
+.Article-allpost .main-hero {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+h5.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Sarthak-div {
+    padding-top: 10px;
+}
+
+.famous {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin-left: 15px;
+}
+
+.hero-text h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-body h3 {
+    width: 80%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.eye-share {
+    display: flex;
+    align-items: center;
+}
+
+.share {
+    padding: 5px 12px;
+    margin-left: 83px;
+    background: #EDEEF0;
+    padding: -14px 18px;
+}
+
+.views-text {
+    margin-left: 10px;
+}
+
+p.card-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.views-text p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.card.artical-box.Education {
+    margin-top: 30px;
+}
+
+.finance {
+    display: flex;
+}
+
+.clender {
+    display: flex;
+}
+
+.clender .clender-text h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+
+}
+
+.ahmedabad {
+    display: flex;
+    margin-left: 89px;
+}
+
+.ahmedabad-text h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Visit-Website {
+    border: 1px solid #A9AEB8;
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Visit-Website a {
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #E56135;
+
+}
+
+.time-jobe {
+    color: #02B875;
+    border: 1px solid #A9AEB8;
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.time-jobe a {
+    color: #02B875;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+
+/* end */
+.noida {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 77px;
+    border-bottom: 1px solid #B8B8B8;
+    padding: 13px 0px;
+    margin-top: 35px;
+}
+
+.noida-main {
+    display: flex;
+}
+
+.map-pic-text h5 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0px;
+        margin-left: 3px px;
+}
+
+.location {
+    display: flex;
+    margin-left: 77px;
+        margin-top: 20px;
+}
+
+.location p {
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 5px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
